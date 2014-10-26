@@ -1,8 +1,9 @@
 # The Code Book
 
--1.- The Data
--2.- run_analisis.R
--3.- Disclaimer
+- The Data
+- run_analisis.R
+- Disclaimer
+- Notes
 
 # The Data
 The original dataset  "Human Activity Recognition Using Smartphones"  is located at
@@ -21,13 +22,13 @@ Processed data gives the mean  for:  standard deviation and means fields given i
 
 These are the task performed in run_analysis.R:
 
--1.- Loads every data subset 
--2.- It pulls data of the fields that referes to standard deviation or mean
--3.- It merges the data on its dimentions (X,y and subject)
--4.- Attach nams to fields and subsets the data according to fields refering to mean or std (point 2)
--5.- It fully merges teh data in a single table
--6.- Uses the mean function with lapply, grouping by (.SD): subject,activity
--7.- writes the file
+- Loads every data subset 
+- It pulls data of the fields that referes to standard deviation or mean
+- It merges the data on its dimentions (X,y and subject)
+- Attach nams to fields and subsets the data according to fields refering to mean or std (point 2)
+- It fully merges teh data in a single table
+- Uses the mean function with lapply, grouping by (.SD): subject,activity
+- writes the file
 
 
 
